@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.sidebarlogo {
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /* border-bottom: rgb(255, 255, 255) 1px solid; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=PT+Serif&family=Poppins&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap");
+
+.profile_icon {
+  margin-left: 20px;
+}
+
+.notification {
+  margin-right: 10px;
+}

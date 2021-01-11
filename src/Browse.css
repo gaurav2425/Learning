@@ -1,0 +1,33 @@
+.browse_body {
+  height: 100%;
+  width: 100%;
+  background: red;
+}
+.browse_body_image {
+  background: url("https://o.remove.bg/downloads/d7091d8d-b10c-4b95-994d-d60a565395e3/pexels-harsh-kushwaha-1689731-removebg-preview.png")
+    no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 50%;
+  width: 100%;
+}
+
+.layer {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(
+    transparent,
+    rgb(0, 0, 0),
+    black,
+    black,
+    black,
+    black,
+    black,
+    black,
+    black
+  );
+  /* background: red; */
+  opacity: 0.8;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap");
+.sidebaroptions {
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  border: 2x solid rgb(255, 255, 255);
+
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar_logo {
+  margin-left: 15px;
+}
+.sidebar_name h1 {
+  text-decoration: none;
+}
+.sidebar_name {
+  font-size: 9px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+
+  /* letter-spacing: 2px; */
+}
+
+.sidebar_logo .sidebar_logo_main {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+.sidebar_name h1:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.link {
+  border-bottom: none;
+}
+.sidebaroptions:hover {
+  -webkit-box-shadow: inset 5px 0px 0px 0px rgb(0, 0, 0);
+  /* background: rgb(66, 70, 69); */
+  color: aliceblue;
+}
+
+.sidebaroptions:hover .sidebar_name {
+  color: aliceblue;
+}
+
+.sidebaroptions .selected {
+  background: red;
+  color: rgb(255, 255, 255);
+}

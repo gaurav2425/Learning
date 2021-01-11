@@ -1,0 +1,8 @@
+.sidebar {
+  background: linear-gradient(rgb(41, 255, 201), rgb(0, 180, 126), black);
+  /* background: rgb(255, 255, 255); */
+  min-width: 230px;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  cursor: pointer;
+}

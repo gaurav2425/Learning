@@ -1,0 +1,25 @@
+.topartistrow {
+  color: wheat;
+}
+
+.artist_image {
+  background: wheat;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.artist_image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.artist_name {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+}

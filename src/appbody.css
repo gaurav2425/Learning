@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.appbody {
+  /* background: linear-gradient(rgb(43, 41, 41)); */
+  background: rgb(14, 14, 14);
+  height: 90vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-family: "Roboto", sans-serif;
+}
+.app_banner_image {
+  min-width: 300px;
+}
+
+.banner_info {
+  /* background: red; */
+}
+.banner_info h1 {
+  text-align: start;
+  color: rgb(255, 63, 63);
+  font-family: "Poppins", sans-serif;
+}
+.app_banner {
+  height: 350px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: flex;
+  flex-direction: row;
+
+  object-fit: contain;
+}
+
+.app_banner_image img {
+  height: 350px;
+  top: 0px;
+}
+.app_banner img {
+  width: 100%;
+}
+.app_banner {
+  width: 100%;
+}
+.layer {
+  position: absolute;
+
+  width: 75%;
+  height: 300px;
+  opacity: 0.61;
+}
+
+.topartists_main {
+  color: wheat;
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.topartists_title {
+  text-align: start;
+  margin-left: 20px;
+}
+.topartists {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+}
+
+.topartists::-webkit-scrollbar {
+  display: none;
+}
+
+.banner_layer {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(17, 17, 17),
+    rgb(8, 8, 8)
+  );
+  width: 100%;
+  position: absolute;
+
+  bottom: 0px;
+  height: 6.2rem;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: rgb(37, 37, 37);
+  z-index: 1111;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+
+  z-index: 1111;
+  background: wheat;
+}
+.albumreleses_main {
+  width: 100%;
+  justify-content: center;
+}
+.albumreleses {
+  display: flex;
+  overflow-x: scroll;
+  width: 98%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+.albumreleses_row {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.album_title {
+  text-align: start;
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.generes_row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.generes_row_main {
+  display: flex;
+
+  color: aliceblue;
+  flex-direction: column;
+}
+
+.generes_row_title {
+  text-align: start;
+  margin-top: 20px;
+  /* background: rgb(66, 68, 70); */
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.generes_row_title h1 {
+  margin-left: 10px;
+}

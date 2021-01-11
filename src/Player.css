@@ -1,0 +1,77 @@
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  flex-direction: row;
+  display: flex;
+  overflow-x: hidden;
+  /* width: 100vw; */
+  background: rgb(41, 39, 39);
+  /* width: auto; */
+  /* position: fixed; */
+  /* background: linear-gradient(
+    90deg,
+    black,
+    black,
+    rgb(0, 255, 170),
+    black,
+    black
+  ); */
+  /* opacity: 0.9; */
+}
+
+.middle-icons {
+  display: flex;
+}
+
+.square-song {
+  width: 50px;
+  height: 50px;
+  background: none;
+  margin-right: 15px;
+}
+.square-song img {
+  animation: animate 5s infinite linear;
+}
+@media animate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.left_side {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.square-song img {
+  width: 50px;
+  height: 50px;
+}
+
+.right-icons {
+  display: flex;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  /* background: rgb(0, 0, 0); */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn1 {
+  color: rgb(255, 255, 255);
+  /* background: rgb(255, 78, 78); */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btnpause {
+  background: rgb(255, 255, 255);
+}

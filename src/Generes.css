@@ -1,0 +1,28 @@
+.generes {
+  color: aliceblue;
+  margin-left: 10px;
+  background: linear-gradient(rgb(41, 255, 201), rgb(0, 180, 126));
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  height: 35px;
+  padding-right: 20px;
+  color: rgb(65, 3, 3);
+  word-wrap: none;
+  white-space: nowrap;
+  padding-left: 20px;
+  width: auto;
+  word-wrap: none;
+  justify-content: center;
+  text-align: center;
+  /* min-width: 120px;
+  max-width: 200px; */
+  /* object-fit: contain; */
+}
+
+.generes h1 {
+  text-align: center;
+  background: red;
+  /* word-wrap: none; */
+}

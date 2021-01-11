@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&family=Source+Sans+Pro:wght@200&display=swap");
+.album {
+  min-width: 200px;
+  width: 250px;
+  height: 200px;
+  background: red;
+  margin-right: 10px;
+  border-radius: 5px;
+  object-fit: contain;
+
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcnqCRCPOr8bvNOAQXHiwYcCEyEgvEZ-nhJA&usqp=CAU"); */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.album img {
+  min-width: 200px;
+  /* width: 250px; */
+  height: 200px;
+}

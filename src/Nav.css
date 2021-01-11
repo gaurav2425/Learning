@@ -1,0 +1,48 @@
+.navbar {
+  height: 80px;
+
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+
+  /* opacity: 0.5; */
+  top: 0;
+  left: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 11;
+  font-size: 10px;
+  z-index: 0;
+  align-items: center;
+
+  margin-left: 10px;
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+  /* background: rgb(255, 255, 255); */
+  opacity: 1;
+  /* background: #001224; */
+  /* opacity: 0.5; */
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.navbar_left_input input {
+  background: none;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.navbar_right {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.navbar_right_notification {
+  margin-right: 15px;
+}

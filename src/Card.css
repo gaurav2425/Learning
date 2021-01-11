@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=PT+Serif&family=Poppins&family=Roboto:wght@100&display=swap");
+.card {
+  height: 260px;
+  width: 200px;
+  /* background: rgb(31, 30, 30); */
+
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card ::-webkit-scrollbar {
+  display: none;
+}
+
+.card_img {
+  height: 170px;
+  min-width: 200px;
+  background: aliceblue;
+}
+.card_img img {
+  height: 170px;
+  width: 200px;
+}
+
+.card_info {
+  color: aliceblue;
+  height: 120px;
+}
+
+.card_info h4 {
+  text-align: start;
+
+  max-width: 240px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin-left: 5px;
+  color: rgb(232, 237, 247);
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  top: -15px;
+}
+
+.card_info h5 {
+  font-weight: 500;
+  position: relative;
+  top: -35px;
+  font-size: 12px;
+  color: rgb(131, 129, 129);
+  font-family: "Poppins", sans-serif;
+  max-width: 220px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.card_overlay {
+  background: aliceblue;
+  height: 320px;
+  min-width: 250px;
+  top: -205px;
+  left: 0px;
+  opacity: 0;
+  z-index: 1111;
+  position: relative;
+  transform: translateY(40px);
+  transition: transform 0.6s;
+}
+
+.card_overlay:hover {
+  opacity: 0.7;
+  transform: translateY(0);
+  background: rgb(0, 0, 0);
+}
+
+.card_overlay {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 250px;
+  align-items: center;
+}
+
+.playicon {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 60px !important;
+  height: 60px !important;
+  cursor: pointer;
+  border-radius: 100%;
+
+  z-index: 111111;
+  opacity: 1;
+}
+
+.hearticon {
+  width: 35px !important;
+  height: 35px !important;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.shareicon {
+  width: 35px !important;
+  height: 35px !important;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.hearticon:hover {
+  color: red;
+}
